@@ -16,6 +16,4 @@ for(let i = 0; i < images.length; ++i){
     document.write("<img src='" + images[i].src + "' width='100' height='100' class='smallImage'/>");
 }
 
-document.getElementsByClassName("smallImage").onclick = function(){
-    alert("Hello");
-};
+
